@@ -1,0 +1,18 @@
+
+<input matInput [formControl]="emailFormControl" placeholder="Email"  required >
+        <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+          Please enter a valid email address
+          </mat-error>
+<button type="submit" style="font-size:20px;color:blue;" (click)="add()">ADD</button>
+<ul>
+  <li *ngFor="let email of emails">
+    <span>{{email}}</span>
+    <button (click)="delete()" style="font-size:20px;color:blue;">Delete</button>
+  </li>
+</ul>
+<input matInput [formControl]="searchText"  placeholder="search" >
+<!-- <ul>
+  <li *ngFor="let email of emails | filter:searchText">
+    <span>{{email}}</span>
+  </li>
+</ul> -->

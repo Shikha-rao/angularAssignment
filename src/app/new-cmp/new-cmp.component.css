@@ -1,0 +1,40 @@
+.a{
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: rotate(20deg);
+    /* transform: rotate(20deg);
+    transform: rotate(20deg); */
+}
+.b{
+    width: 150px;
+    height: 80px;
+    background-color: violet;
+    transform: skewY(20deg);
+    /* transform: skewY(20deg);
+    transform: skewY(20deg); */
+}
+.c{
+    width: 150px;
+    height: 80px;
+    background-color:burlywood;
+    transform: scaleY(1.5);
+    /* transform: scaleY(1.5);
+    transform: scaleY(1.5); */
+}
+.acol{
+    height: 94px;
+    border: 2px solid;
+    width: 62px;
+}
+.bcol{
+    /* height: 210px; */
+    height: 94px;
+    border: 2px solid;
+    width: 62px;
+}
+.ccol{
+    height: 94px;
+    border: 2px solid;
+    width: 62px;
+}
